@@ -1,34 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;300;500;600;700&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-body{
-    font-family:'IBM Plex Sans Thai Looped', sans-serif;
-    background: url("/images/chalal.jpg") no-repeat;
-    background-size: cover;
-    mix-blend-mode: difference ;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+	background: url(/new-year_countdown/images/chalal.jpg) no-repeat;
+	background-size: cover;
+	mix-blend-mode: difference;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 .coundown {
-    width: 60vw;
-    display: flex;
-    justify-content: space-between;
-    font-size: 2rem;
-    font-weight: bold;
+	width: 60vw;
+	display: flex;
+	justify-content: space-between;
+	font-size: 2rem;
+	font-weight: bold;
 }
 .coundown .content {
-    font-size: 3rem;
-    text-align: center;
+	font-size: 3rem;
+	text-align: center;
 }
 .coundown .name {
-    font-size: 1.2rem;
-    color: #FFF;
-    font-weight: 900;
-
+	font-size: 1.2rem;
+	color: #fff;
+	font-weight: 900;
 }
