@@ -8,8 +8,7 @@ body {
 	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 	background: url(/new-year_countdown/images/chalal.jpg) no-repeat;
 	background-size: cover;
-	mix-blend-mode: difference;
-	color: #fff;
+	color: #aaaa18;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -28,6 +27,11 @@ body {
 }
 .coundown .name {
 	font-size: 1.2rem;
-	color: #fff;
+	color: #000;
 	font-weight: 900;
+}
+#newYear {
+	position: absolute;
+	top: 20vh;
+	font-size: 6.5rem;
 }
