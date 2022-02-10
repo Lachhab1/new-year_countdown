@@ -34,4 +34,6 @@ body {
 	position: absolute;
 	top: 20vh;
 	font-size: 6.5rem;
+	color: aliceblue;
+	mix-blend-mode: difference;
 }
